@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Электронный учебник.</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Экзамен. С тестами. Ну-ну:) Так же шаблон для самотестирования. -->
+</head>
+<body>
+    <div id="content" class="wrapper box">
+    <hgroup>
+    <h1>Электронный учебник.</h1>
+    <h2>"Электромеханические волны."</h2>
+    </hgroup>
+    <div>
+        <h2>Экзамен.</h2>
+        <p>
+        Пожалуйста, ответьте на вопросы, приведенные ниже:</p>
+
+        <div>
+            <p>Вопрос:</p>
+            <ul>
+                <li>
+                    <input type="radio" name="Вопрос1" value="r1" id="radioI1"><span>Вариант 1</span>
+                </li>
+                <li>
+                    <input type="radio" name="Вопрос1" value="r1" id="radioI2" truth="true"><span>Вариант 2</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>Вопрос:</p>
+            <ul>
+                <li>
+                    <input type="checkbox" name="check1" value="c1" id="checkI1" truth="true"><span>Вариант 1</span>
+                </li>
+                <li>
+                    <input type="checkbox" name="check1" value="c1" id="checkI2"><span>Вариант 2</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p>Вопрос:</p>
+            <!-- <br/> -->
+            <input type="text" id="textI1" value="t1" spellcheck="true" truth="hello">
+        </div>
+
+        <div>
+            <input type='button' id='cleaner' value='Очистить'>
+            <input type='button' id='tester' value='Проверить тест'>
+            <input type='button' id='examiner' value='Экзамен'>
+        </div>
+
+        <p>Результат:<br/><span id="result"></span></p>
+    </div>
+    <nav class='navigate'>
+            <a id='prev_page' href="r.html" title="Предыдущий Раздел">Предыдущий Раздел</a>
+            <a id='titul_page' href="titul.html" title="Главная страница">Главная страница</a>
+    </nav>
+    <footer><p>&copy; Астров Ю.Л. 2013</p></footer>
+    </div>
+</body>
+</html>

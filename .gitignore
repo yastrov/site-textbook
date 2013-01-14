@@ -1,0 +1,6 @@
+#Mercurial
+.hg
+.hgignore
+
+#Other
+*.txt
