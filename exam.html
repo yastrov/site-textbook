@@ -4,54 +4,167 @@
     <meta charset="UTF-8"/>
     <title>Электронный учебник.</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/exam.js"></script>
     <!-- Экзамен. С тестами. Ну-ну:) Так же шаблон для самотестирования. -->
 </head>
 <body>
     <div id="content" class="wrapper box">
     <hgroup>
     <h1>Электронный учебник.</h1>
-    <h2>"Электромеханические волны."</h2>
+    <h2>"Название учебника."</h2>
     </hgroup>
     <div>
         <h2>Экзамен.</h2>
         <p>
-        Пожалуйста, ответьте на вопросы, приведенные ниже:</p>
-
+        Пожалуйста, ответьте на вопросы, приведенные ниже
+        (Вопросы, на которые дан правильный ответ будут помечены зелёным, иначе - красным):</p>
+        <form action="#" method="POST">
         <div>
-            <p>Вопрос:</p>
+            <p id="T1">Вопрос 1</p>
             <ul>
                 <li>
-                    <input type="radio" name="radio1" value="r1" ><span>Вариант 1</span>
+                    <input type="radio" name="r1" ><span>Вариант ответа</span>
                 </li>
                 <li>
-                    <input type="radio" name="radio1" value="r2" truth="true"><span>Вариант 2</span>
+                    <input type="radio" name="r1" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r1" ><span>Вариант ответа</span>
                 </li>
             </ul>
         </div>
         <div>
-            <p>Вопрос:</p>
+            <p id="T2">Вопрос 2</p>
             <ul>
                 <li>
-                    <input type="checkbox" name="check1" value="c1" truth="true"><span>Вариант 1</span>
+                    <input type="radio" name="r2" ><span>Вариант ответа</span>
                 </li>
                 <li>
-                    <input type="checkbox" name="check1" value="c2" ><span>Вариант 2</span>
+                    <input type="radio" name="r2" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r2" ><span>Вариант ответа</span>
                 </li>
             </ul>
         </div>
         <div>
-            <p>Вопрос:</p>
-            <!-- <br/> -->
-            <input type="text" name="textI1" spellcheck="true" truth="hello">
+            <p id="T3">Вопрос 3</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r3" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r3" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r3" ><span>Вариант ответа</span>
+                </li>
+            </ul>
         </div>
-
+        <div>
+            <p id="T4">Вопрос 4</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r4" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r4" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r4" ><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p id="T5">Вопрос 5</p>
+            <ul>
+                <li>
+                    <input type="checkbox" name="c1" value="c1" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="checkbox" name="c2" value="c1" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="checkbox" name="c3" value="c1" ><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+              
+        <div>
+            <p id="T6">Вопрос 6</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r5"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r5" ><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r5" ><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p id="T7">Вопрос 7</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r6"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r6"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r6"><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p id="T8">Вопрос 8</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r7"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r7"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r7"><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p id="T9">Вопрос 9</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r8"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r8"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r8"><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p id="T10">Вопрос 10</p>
+            <ul>
+                <li>
+                    <input type="radio" name="r9"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r9"><span>Вариант ответа</span>
+                </li>
+                <li>
+                    <input type="radio" name="r9"><span>Вариант ответа</span>
+                </li>
+            </ul>
+        </div>
         <div>
             <input type='button' id='cleaner' value='Очистить'>
-            <input type='button' id='tester' value='Проверить тест'>
             <input type='button' id='examiner' value='Экзамен'>
         </div>
-
+    </form>
         <p>Результат:<br/><span id="result"></span></p>
     </div>
     <nav class='navigate'>
